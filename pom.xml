@@ -6,8 +6,27 @@
 
   <groupId>com.gizwits.openapi</groupId>
   <artifactId>openapi-sdk</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.2.0</version>
   <packaging>jar</packaging>
+
+  <name>com.gizwits:openapi-sdk</name>
+  <description>This SDK helps IOT developers to use Gizwits Open Api easily.</description>
+  <url>www.gizwits.com</url>
+
+  <developers>
+    <developer>
+      <name>Andy Wang</name>
+      <email>andywang@gizwits.com</email>
+      <organization>Gizwits</organization>
+      <organizationUrl>www.gizwits.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Matthew Pang</name>
+      <email>maven@gizwits.com</email>
+      <organization>Gizwits</organization>
+      <organizationUrl>www.gizwits.com</organizationUrl>
+    </developer>
+  </developers>
 
   <scm>
     <connection>scm:git:git://github.com/gizwits/openapi-sdk-java</connection>

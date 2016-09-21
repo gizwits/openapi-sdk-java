@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.gizwits.openapi</groupId>
+  <artifactId>openapi-sdk</artifactId>
+  <version>0.2.0</version>
+  <packaging>jar</packaging>
+
+  <name>com.gizwits:openapi-sdk</name>
+  <description>This SDK helps IOT developers to use Gizwits Open Api easily.</description>
+  <url>www.gizwits.com</url>
+
+  <developers>
+    <developer>
+      <name>Andy Wang</name>
+      <email>andywang@gizwits.com</email>
+      <organization>Gizwits</organization>
+      <organizationUrl>www.gizwits.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Matthew Pang</name>
+      <email>maven@gizwits.com</email>
+      <organization>Gizwits</organization>
+      <organizationUrl>www.gizwits.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/gizwits/openapi-sdk-java</connection>
+    <developerConnection>scm:git:git://github.com/gizwits/openapi-sdk-java</developerConnection>
+    <url>https://github.com/gizwits/openapi-sdk-java</url>
+  </scm>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20151123</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+        <configuration>
+          <tagBase></tagBase>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

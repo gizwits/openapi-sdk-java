@@ -1,4 +1,7 @@
 # openapi-sdk-java
+
+## version: 0.2.0
+
 An Java-SDK for developer connect to Gizwits service easily.
 
 0. token management

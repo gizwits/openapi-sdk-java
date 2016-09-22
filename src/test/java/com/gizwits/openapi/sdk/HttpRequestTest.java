@@ -28,5 +28,7 @@ public class HttpRequestTest
         String inputStr = "abcdefg";
         String md5Str = "7ac66c0f148de9519b8bd264312c4d64";
         assertEquals(md5Str, HttpRequest.md5(inputStr));
+
+        assertEquals("", HttpRequest.md5(null));
     }
 }

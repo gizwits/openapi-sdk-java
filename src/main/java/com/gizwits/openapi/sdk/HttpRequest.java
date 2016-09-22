@@ -88,6 +88,11 @@ public class HttpRequest
         return result;
     }
 
+    /**
+     * Generate 32bit lower-case MD5 String for the input String.
+     * @param inputStr Any String will accept
+     * @return 32bit lower-case MD5 String, or get "" when error occur
+     */
     public static String md5(String inputStr)
     {
         MessageDigest digestInstance = null;
